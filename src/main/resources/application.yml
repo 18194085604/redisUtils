@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-boot-web-app
+distributed:
+  lock:
+    name: ${spring.application.name}_lock
